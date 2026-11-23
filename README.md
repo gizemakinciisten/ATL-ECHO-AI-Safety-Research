@@ -40,7 +40,13 @@ An exploratory strand examines whether internal activation signatures associated
 
 The private research archive contains multiple evolving Python/Colab experimental versions across these strands. Source inspection confirms the presence of model-inference routines, experiment definitions, null/control procedures, statistical analysis logic, and result-export routines. **Code inspection alone does not verify that each experiment ran successfully or that any reported performance generalizes.**
 
-No numerical performance claims are published in this initial public portfolio. Selected figures or quantitative findings may be added later only after the corresponding output artifacts, execution context, denominators, and relevant limitations have been checked. Exploratory and confirmatory results will be identified separately.
+The following result is reported from the frozen pilot configuration.
+
+**Reported pilot result (Qwen2.5-1.5B-Instruct, layer 20, 5 agents, 6 rounds, intervention at round 3): 34/40 correct source attributions across two post-freeze validation sets (chance level: 20%).**
+
+This corresponds to an observed source-attribution accuracy of **85%** under the reported experimental conditions. The finding is preliminary and limited to a single model scale and controlled experimental setting. Generalization across models, agent configurations, tasks, and operational environments has not been established.
+
+The pilot result is reported as part of the ongoing research record and should not be interpreted as evidence of production-level reliability or independently replicated performance. Additional quantitative findings may be published following review of their execution context, evaluation procedures, and supporting experimental artifacts. Exploratory and confirmatory findings will be distinguished.
 
 ## Scope and limitations
 
@@ -55,7 +61,15 @@ No numerical performance claims are published in this initial public portfolio. 
 
 **The research implementation, executable experiments, model-interfacing routines, internal evaluation data, and development materials are not included in this repository.** This repository does not provide an executable reproduction package or an implementation specification.
 
-© 2026 Gizem İşten. All rights reserved in the original materials presented here, subject to applicable law and third-party rights. Public visibility does not grant a software license, authorization to reuse unpublished source code, or permission to represent this research as a completed product. General scientific ideas and independently developed methods may be subject to different legal treatment.
+**Related public materials:**
+
+- **Foundational publication:** [The Origin of Dark Energy: The Role of Interactions Between Imaginary and Anti Time Dimensions](https://doi.org/10.17776/csj.1574774)
+- **Researcher ORCID:** [0009-0009-8555-9690](https://orcid.org/0009-0009-8555-9690)
+- **Figshare:** Openly archived simulation artifacts associated with the foundational publication. Their DOI references are provided in the published article.
+
+The foundational publication and its associated simulation materials concern the original anti-time theoretical framework. They should not be interpreted as an independently reproducible release or validation of the ATL ECHO AI-safety experiments.
+
+© 2026 Gizem Akıncı İşten. All rights reserved in the original materials presented here, subject to applicable law and third-party rights. Public visibility does not grant a software license, authorization to reuse unpublished source code, or permission to represent this research as a completed product. General scientific ideas and independently developed methods may be subject to different legal treatment.
 
 ## Research communication
 
