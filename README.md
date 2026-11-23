@@ -1,4 +1,4 @@
-# ATL ECHO — Activation-Space Research for Multi-Agent AI Safety
+# Anti Time Layer Echo (ATL ECHO) — Activation-Space Research for Multi-Agent AI Safety
 
 **Independent research programme | Ongoing experimental investigation | Source code not publicly released**
 
